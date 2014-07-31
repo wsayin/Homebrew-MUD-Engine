@@ -1,0 +1,10 @@
+#!/bin/csh -f
+# Set the port number.
+set port = 5431
+
+while ( 1 )
+    # Run Darkstone
+    ./dark.test
+    # Restart, giving old connections a chance to die.
+end
+

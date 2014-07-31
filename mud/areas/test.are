@@ -1,0 +1,129 @@
+name = "The First Area"
+filename = "test.are"
+reset_time = 1
+rLow = 1
+rHi = 3
+mLow = 1
+mHi = 3
+oLow = 1
+oHi = 3
+levelLow = 0
+levelHi = 50
+author = "Rassik"
+
+rooms={
+         {
+            vnum = 1;
+            name = "A First Test Room";
+            desc = "This is a test room made to see if this thing will work.";
+            exits={
+                        {
+                           name = "north";
+                           desc = "door";
+                           dest = 2;
+                           state = "STATE_OPEN";
+                        },
+                        {
+                           name = "south";
+                           desc = "door";
+                           dest = 3;
+                           state = "STATE_DOOR_CLOSED";
+                        }
+                  },
+            resets = {
+                        {
+                           rtype = 'O';
+                           vnum  = 1;
+                        },
+                        {
+                           rtype = 'O';
+                           vnum  = 2;
+                        },
+                        {
+                           rtype = 'M';
+                           vnum  = 1;
+                        },
+                     }
+                           
+                           
+         },
+         {
+            vnum = 2;
+            name = "A Second Test Room";
+            desc = "This is the second room, test test test";
+            exits={
+                       {
+                           name = "south";
+                           desc = "door";
+                           dest = 1;
+                           state = "STATE_OPEN";
+                       },
+                       {
+                           name = "north";
+                           desc = "door";
+                           dest = 3;
+                           state = "STATE_OPEN";
+                       }
+                  },
+            resets=  {
+                        {
+                           rtype = 'M';
+                           vnum  = 2;
+                        },
+                        {
+                           rtype = 'M';
+                           vnum  = 1;
+                        },
+                     },
+         },
+         {
+            vnum = 3;
+            name = "A Third Test Room";
+            desc = "This is the third room, test test test";
+            exits={
+                       {
+                           name = "south";
+                           desc = "door";
+                           dest = 2;
+                           state = "STATE_OPEN";
+                       }
+                  },
+            resets={
+                   },
+         }
+      }
+      
+objects= {
+            {
+               vnum = 1;
+               name = "first object";
+               sDesc = "the first object";
+               lDesc = "the first object sits here mysteriously";
+            },
+            {
+               vnum = 2;
+               name = "second object";
+               sDesc = "the second object";
+               lDesc = "the second object also sits here, yet not as mysteriously";
+            },
+         }
+
+mobiles= {
+            {
+               vnum = 1;
+               name = "shady thug";
+               level = 1;
+               gender = 1;
+               sDesc = "a shady looking thug";
+               lDesc = "He looks pretty shady... you might want to keep an eye on him.";
+            },
+            {
+               vnum = 2;
+               gender = 1;
+               level = 1;
+               name = "police officer bob";
+               sDesc = "Bob the Police Officer";
+               lDesc = "The boys in blue, gotta love them. He might be of some use to you.";
+            },
+
+         }

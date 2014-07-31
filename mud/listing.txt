@@ -1,0 +1,95 @@
+Folder PATH listing
+Volume serial number is E080-06B5
+C:.
+³   listing.txt
+³   
+ÃÄÄÄareas
+³       list.are
+³       test.are
+³       
+ÃÄÄÄdoc
+³       LICENSE.TXT
+³       README
+³       SOCKETMUD.LICENCE
+³       VERSION
+³       
+ÃÄÄÄhelp
+³       ANSI
+³       CREDITS
+³       GREETING
+³       MCCP
+³       MOTD
+³       
+ÃÄÄÄlog
+ÃÄÄÄplayers
+³   ÃÄÄÄA
+³   ³       Admin.dat
+³   ³       
+³   ÃÄÄÄB
+³   ÃÄÄÄC
+³   ÃÄÄÄD
+³   ÃÄÄÄE
+³   ÃÄÄÄF
+³   ÃÄÄÄG
+³   ÃÄÄÄH
+³   ÃÄÄÄI
+³   ÃÄÄÄJ
+³   ÃÄÄÄK
+³   ÃÄÄÄL
+³   ÃÄÄÄM
+³   ÃÄÄÄN
+³   ÃÄÄÄO
+³   ÃÄÄÄP
+³   ÃÄÄÄQ
+³   ÃÄÄÄR
+³   ÃÄÄÄS
+³   ÃÄÄÄT
+³   ÃÄÄÄU
+³   ÃÄÄÄV
+³   ÃÄÄÄW
+³   ÃÄÄÄX
+³   ÃÄÄÄY
+³   ÀÄÄÄZ
+ÃÄÄÄsrc
+³       accounts.c
+³       accounts.h
+³       action_safe.c
+³       action_safe.h
+³       comm.c
+³       debug.h
+³       event.c
+³       event.h
+³       handler_connections.c
+³       handler_events.c
+³       handler_lua.c
+³       handler_lua.h
+³       handler_mysql.c
+³       handler_mysql.h
+³       help.c
+³       interpret.c
+³       io.c
+³       io.h
+³       list.c
+³       list.h
+³       Makefile
+³       mccp.c
+³       mud.h
+³       rand.c
+³       rand.h
+³       save.c
+³       socket.c
+³       socket.h
+³       stack.c
+³       stack.h
+³       startup
+³       strings.c
+³       strings.h
+³       utils.c
+³       utils.h
+³       world.c
+³       world.h
+³       
+ÃÄÄÄsystem
+³       mud.dat
+³       
+ÀÄÄÄtxt

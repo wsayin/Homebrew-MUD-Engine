@@ -1,0 +1,7 @@
+name = "Default MUD Name"
+port = 4242
+email = "your@email.here"
+MySQL_Login = "Login"
+MySQL_Pass = "Password"
+MySQL_Default_DB = "DB"
+MySQL_Server = "localhost"
